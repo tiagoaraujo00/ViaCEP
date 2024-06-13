@@ -1,5 +1,6 @@
 package com.tiagoaraujo00.viacep.components
 
+import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.Spacer
@@ -39,14 +40,16 @@ fun AddressCard(
             ) {
                 Row(
                     modifier = Modifier
-                        .fillMaxWidth()
+                        .fillMaxWidth(),
+                    horizontalArrangement = Arrangement.SpaceBetween
                 ) {
                     Text(
                         text = "Meu Endereço",
                         fontSize = 18.sp,
                         fontWeight = FontWeight.Bold,
-                        color = Color.Black
+                        color = Color.Red
                     )
+                    MenuOption()
                 }
                 Spacer(modifier = Modifier.height(16.dp))
                 Text(
