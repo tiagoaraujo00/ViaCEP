@@ -1,14 +1,14 @@
-package com.tiagoaraujo00.viacep.features.form.viewmodel
+package com.tiagoaraujo00.viacep.features.home.viewmodel
 
 import androidx.lifecycle.ViewModel
 import com.tiagoaraujo00.viacep.features.form.action.FormAction
-import com.tiagoaraujo00.viacep.features.form.state.FormState
+import com.tiagoaraujo00.viacep.features.home.state.HomeState
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
 
-class FormViewModel: ViewModel() {
-    private val _state = MutableStateFlow(FormState())
-    var state: StateFlow<FormState> = _state
+class HomeViewModel: ViewModel() {
+    private val _state = MutableStateFlow(HomeState())
+    var state: StateFlow<HomeState> = _state
 
     init {
 
