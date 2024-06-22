@@ -1,4 +1,4 @@
-package com.tiagoaraujo00.viacep.components
+package com.tiagoaraujo00.viacep.components.search
 
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Column

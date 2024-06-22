@@ -1,4 +1,4 @@
-package com.tiagoaraujo00.viacep.components
+package com.tiagoaraujo00.viacep.components.card
 
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
@@ -18,6 +18,7 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
+import com.tiagoaraujo00.viacep.components.menu.MenuOption
 
 @Composable
 fun AddressCard(
@@ -66,7 +67,10 @@ fun AddressCard(
 @Preview(showBackground = true)
 @Composable
 fun AddressCardPreview() {
-    Column(modifier = Modifier.fillMaxSize()) {
+    Column(
+        modifier = Modifier
+            .fillMaxSize()
+    ) {
         AddressCard()
     }
 }

@@ -1,4 +1,4 @@
-package com.tiagoaraujo00.viacep.components
+package com.tiagoaraujo00.viacep.components.menu
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Arrangement
